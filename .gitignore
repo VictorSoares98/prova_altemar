@@ -112,3 +112,9 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# GDK Auto-Generated Settings
+/[Aa]ssets/Resources/GDKEditionAutoGen*
+
+# Sortify Backups
+/[Aa]ssets/Sortify/Modules/SortifyCore/SaveFiles/Backups/
