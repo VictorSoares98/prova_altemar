@@ -63,10 +63,6 @@
                 {
                     "objID": "Fase_Ilha_Principal_PLAYER_7",
                     "styleType": 1
-                },
-                {
-                    "objID": "Fase_Ilha_Principal_barracao_9",
-                    "styleType": 0
                 }
             ],
             "showComponents": [
@@ -75,7 +71,7 @@
                     "show": false
                 },
                 {
-                    "objID": "Fase_Ilha_Principal_Player_8",
+                    "objID": "Fase_Ilha_Principal_Zlorp_8",
                     "show": false
                 },
                 {
@@ -100,10 +96,6 @@
                 },
                 {
                     "objID": "Fase_Ilha_Principal_PLAYER_7",
-                    "show": false
-                },
-                {
-                    "objID": "Fase_Ilha_Principal_barracao_9",
                     "show": false
                 }
             ],
