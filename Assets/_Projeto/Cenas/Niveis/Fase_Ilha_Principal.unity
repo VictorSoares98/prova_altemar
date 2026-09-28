@@ -300,8 +300,12 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7446105701539881275, guid: ce62fd78f34525d43b6efb909b8b3ff5, type: 3}
+      propertyPath: m_Center.y
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7446105701539881275, guid: ce62fd78f34525d43b6efb909b8b3ff5, type: 3}
       propertyPath: m_SkinWidth
-      value: 0.1
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
