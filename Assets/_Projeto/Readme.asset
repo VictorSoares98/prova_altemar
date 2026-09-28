@@ -16,28 +16,15 @@ MonoBehaviour:
   title: Diretório Principal
   sections:
   - heading: Bem-vindo
-    text: |
-      Esta pasta '_Projeto' funciona como a nossa 'src/'. É aqui que organizamos apenas o conteúdo criado pela equipe.
-      
-      ⚠️ Regra de Ouro: Não mova pacotes de terceiros para cá. Eles devem permanecer na raiz da pasta Assets/ para não quebrarem referências internas.
+    text: "Esta pasta '_Projeto' funciona como a nossa 'src/'. É aqui que organizamos apenas o conteúdo criado pela equipe.\n\n⚠️ Regra de Ouro: Não mova pacotes de terceiros para cá. Eles devem permanecer na raiz da pasta Assets/ para não quebrarem referências internas."
     linkText: 
     url: 
   - heading: Estrutura de Pastas
-    text: |
-      🎬 Animacoes/: Controladores e clipes de animação.
-      🎨 Artes/: Modelos 3D, materiais, texturas e sprites.
-      🔊 Audio/: Trilhas sonoras e efeitos sonoros.
-      🗺️ Cenas/: Arquivos .unity (MenuPrincipal, Fase_01).
-      📦 Prefabs/: Objetos prontos para reuso (ex: Player).
-      💻 Scripts/: Todo o código C#.
-      🖼️ UI/: Elementos de interface e painéis.
+    text: "🎬 Animacoes/: Controladores e clipes de animação.\n🎨 Artes/: Modelos 3D, materiais, texturas e sprites.\n🔊 Audio/: Trilhas sonoras e efeitos sonoros.\n🗺️ Cenas/: Arquivos .unity (MenuPrincipal, Fase_01).\n📦 Prefabs/: Objetos prontos para reuso (ex: Player).\n💻 Scripts/: Todo o código C#.\n🖼️ UI/: Elementos de interface e painéis."
     linkText: 
     url: 
   - heading: Boas Práticas e Git
-    text: |
-      1. Sempre comite os arquivos .meta: Omiti-los quebra o projeto na máquina de outros membros.
-      2. Cenas e Prefabs: Evite edições simultâneas para não gerar conflitos de merge complexos.
-      3. Mantenha no lugar: Não deixe arquivos soltos na raiz de _Projeto.
+    text: "1. Sempre comite os arquivos .meta: Omiti-los quebra o projeto na máquina de outros membros.\n2. Cenas e Prefabs: Evite edições simultâneas para não gerar conflitos de merge complexos.\n3. Mantenha no lugar: Não deixe arquivos soltos na raiz de _Projeto."
     linkText: 
     url: 
   loadedLayout: 1
