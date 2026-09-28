@@ -2,7 +2,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 #if STARTER_ASSETS_PACKAGES_CHECKED
-using Cinemachine;
+using Unity.Cinemachine;
 #endif
 
 namespace StarterAssets
@@ -119,7 +119,7 @@ namespace StarterAssets
             GameObject cinemachineVirtualCamera)
         {
             var serializedObject =
-                new SerializedObject(cinemachineVirtualCamera.GetComponent<CinemachineVirtualCamera>());
+                new SerializedObject(cinemachineVirtualCamera.GetComponent<CinemachineCamera>());
             var serializedProperty = serializedObject.FindProperty("m_Follow");
             serializedProperty.objectReferenceValue = target.transform;
             serializedObject.ApplyModifiedProperties();
