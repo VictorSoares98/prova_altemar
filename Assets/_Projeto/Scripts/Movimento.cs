@@ -35,30 +35,28 @@ public class Movimento : MonoBehaviour
         float moveZ = Input.GetAxis("Vertical");
         inputs = new Vector3(moveX, 0, moveZ);
 
-        // 3. Verificar se há movimento e gerir andar/correr
+        // 3. Verificar se há movimento e gerir andar/correr com a Blend Tree
         if (inputs != Vector3.zero)
         {
             transform.forward = inputs; // Roda o personagem para a direção do movimento
-            animator.SetBool("walking", true); // Garante que a animação de andar está ativa
 
             // Se mantiver o Shift premido, corre; caso contrário, anda
             if (Input.GetKey(KeyCode.LeftShift))
             {
                 velocidadeAtual = velocidadeCorrer;
-                animator.SetBool("running", true);
+                animator.SetFloat("Velocidade", 1f); // Valor 1 = Running na Blend Tree
             }
             else
             {
                 velocidadeAtual = velocidadeAndar;
-                animator.SetBool("running", false);
+                animator.SetFloat("Velocidade", 0.5f); // Valor 0.5 = Walking na Blend Tree
             }
         }
         else
         {
-            // Se estiver parado, desativa tudo
-            animator.SetBool("walking", false);
-            animator.SetBool("running", false);
+            // Se estiver parado, zera a velocidade na Unity e na Blend Tree
             velocidadeAtual = 0f;
+            animator.SetFloat("Velocidade", 0f); // Valor 0 = Idle na Blend Tree
         }
         
         // Aplica o movimento horizontal
