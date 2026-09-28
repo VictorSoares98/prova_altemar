@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 727a75301c3d24613a3ebcec4a24c2c8, type: 3}
+  title: Diretório Principal
+  sections:
+  - heading: Bem-vindo
+    text: |
+      Esta pasta '_Projeto' funciona como a nossa 'src/'. É aqui que organizamos apenas o conteúdo criado pela equipe.
+      
+      ⚠️ Regra de Ouro: Não mova pacotes de terceiros para cá. Eles devem permanecer na raiz da pasta Assets/ para não quebrarem referências internas.
+    linkText: 
+    url: 
+  - heading: Estrutura de Pastas
+    text: |
+      🎬 Animacoes/: Controladores e clipes de animação.
+      🎨 Artes/: Modelos 3D, materiais, texturas e sprites.
+      🔊 Audio/: Trilhas sonoras e efeitos sonoros.
+      🗺️ Cenas/: Arquivos .unity (MenuPrincipal, Fase_01).
+      📦 Prefabs/: Objetos prontos para reuso (ex: Player).
+      💻 Scripts/: Todo o código C#.
+      🖼️ UI/: Elementos de interface e painéis.
+    linkText: 
+    url: 
+  - heading: Boas Práticas e Git
+    text: |
+      1. Sempre comite os arquivos .meta: Omiti-los quebra o projeto na máquina de outros membros.
+      2. Cenas e Prefabs: Evite edições simultâneas para não gerar conflitos de merge complexos.
+      3. Mantenha no lugar: Não deixe arquivos soltos na raiz de _Projeto.
+    linkText: 
+    url: 
+  loadedLayout: 1
