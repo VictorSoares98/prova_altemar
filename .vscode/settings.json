@@ -67,5 +67,8 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "prova_altemar.slnx"
+    "dotnet.defaultSolution": "prova_altemar.slnx",
+    "cSpell.ignorePaths": [
+        "Assets/Gaskellgames/**"
+    ]
 }
