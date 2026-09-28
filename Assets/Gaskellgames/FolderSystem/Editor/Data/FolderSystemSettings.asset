@@ -87,3 +87,5 @@ MonoBehaviour:
       value: {fileID: 2800000, guid: 09a9901ed672c214ca7175dd26fd7e0c, type: 3}
     - key: Assets
       value: {fileID: 2800000, guid: 5d1c9c6304cb0ff479f9857f01cadc55, type: 3}
+    - key: Configuracoes
+      value: {fileID: 2800000, guid: d3d852f5d8f59e7468bb932151a1c36c, type: 3}
