@@ -1,0 +1,113 @@
+{
+    "objectsData": [
+        {
+            "colors": [],
+            "styles": [],
+            "showComponents": [],
+            "sceneName": ""
+        },
+        {
+            "colors": [],
+            "styles": [],
+            "showComponents": [],
+            "sceneName": "Scene 1"
+        },
+        {
+            "colors": [],
+            "styles": [],
+            "showComponents": [],
+            "sceneName": "Survivalist"
+        },
+        {
+            "colors": [],
+            "styles": [],
+            "showComponents": [],
+            "sceneName": "fistscene"
+        },
+        {
+            "colors": [
+                {
+                    "objID": "Fase_Ilha_Principal_TERRAIN_5",
+                    "colorValue": "40BF40FF"
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_CAMERA_0",
+                    "colorValue": "BF4040FF"
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_LIGHT/LUZ_2",
+                    "colorValue": "4CB5FFFF"
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_PLAYER_7",
+                    "colorValue": "CC9933FF"
+                }
+            ],
+            "styles": [
+                {
+                    "objID": "Fase_Ilha_Principal_Terrain_6",
+                    "styleType": 0
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_TERRAIN_5",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_CAMERA_0",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_LIGHT/LUZ_2",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_PLAYER_7",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_barracao_9",
+                    "styleType": 0
+                }
+            ],
+            "showComponents": [
+                {
+                    "objID": "Fase_Ilha_Principal_Main Camera_1",
+                    "show": false
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_Player_8",
+                    "show": false
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_Reflection Probe_4",
+                    "show": false
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_Terrain_6",
+                    "show": true
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_TERRAIN_5",
+                    "show": false
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_CAMERA_0",
+                    "show": false
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_LIGHT/LUZ_2",
+                    "show": false
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_PLAYER_7",
+                    "show": false
+                },
+                {
+                    "objID": "Fase_Ilha_Principal_barracao_9",
+                    "show": false
+                }
+            ],
+            "sceneName": "Fase_Ilha_Principal"
+        }
+    ]
+}
